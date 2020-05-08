@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AboutAppFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtAboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:text="BookHub App:"
+        android:textColor="#111111"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAboutAppDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutTitle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:text="@string/about_app_desc"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/txtDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Development Duration:"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#111111"
+        android:layout_below="@+id/txtAboutAppDesc"
+        android:padding="7dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:id="@+id/txtDurationDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDuration"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:text="One week."
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/txtLanguages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Languages Used:"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#111111"
+        android:layout_below="@+id/txtDurationDesc"
+        android:padding="7dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/txtLanguagesDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLanguages"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:text="Kotlin\nXML"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
